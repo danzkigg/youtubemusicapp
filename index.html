@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Daniel Silva</title>
+</head>
+<body>
+
+    <section id="header">
+        <div class="container mt-5">
+            
+        </div>
+
+    </section>
+
+    <section id="about-me">
+        <div class="px-4 py-5 my-5 text-center">
+            <!-- <img class="d-block mx-auto mb-4 rounded-circle" src="./img/me.png" alt="" width="200" height="200"> -->
+            <h1 class="display-5 fw-bold text-body-emphasis">Daniel Silva</h1>
+            <div class="col-lg-6 mx-auto">
+              <p class="lead mb-4">Hello and welcome, my name is Daniel Silva and I'm a programmer. I work mainly with <img class="rounded-circle" src="./img/js_logo.svg" alt="JavaScript logo" width="25"> <b class="fw-medium">JavaScript</b>, but I'm always trying to improve myself with learning new skills everyday, which means other programming languages aswell.</p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <a href="https://github.com/danzkigg" target="_blank">
+                  <button type="button" class="btn btn-dark btn-lg px-4 gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                    </svg> My Github</button>
+                </a>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h3 class="mb-2">Projects</h3>
+            <hr class="mb-5 featurette-divider">
+            
+            <div class="row featurette mb-5">
+                <div class="col-md-7">
+                  <h2 class="featurette-heading fw-normal lh-1">Youtube Music: <span class="text-body-secondary">Python Wrapper</span></h2>
+                  <p class="lead">This was a project to make a desktop app for Youtube Music for personal use.</p>
+                  <p class="fw-normal">Languages used:</p>
+                    <ul>
+                        <img src="./img/python.png" alt="python logo" class="rounded-circle" width="20"> Python
+                    </ul>
+                </div>
+                <div class="col-md-5">
+                  <img src="./img/apps/youtubemusic.png" class="featurette-image img-fluid mx-auto" width="500" height="500" alt="">
+                 <br> <a href="https://github.com/danzkigg/youtubemusicapp" target="_blank" class="text-decoration-none text-alight-right"><img src="./img/github-mark.png" alt="Github logo" width="20"> See this project on Github</a>
+                </div>
+              </div>
+
+              <hr class="mb-5 featurette-divider">
+
+              <div class="row featurette mb-5">
+                <div class="col-md-7 order-md-2">
+                  <h2 class="featurette-heading fw-normal lh-1">Discord bot: <span class="text-body-secondary">VALBOT</span></h2>
+                  <p class="lead">VALBOT is a discord bot for Valorant stats created using <img src="./img/python.png" alt="python logo" class="rounded-circle" width="20"> Python.
+
+                    <p>Using the .stats [player#ID] command in your discord server, you'll be able to see that player's Valorant stats, such as:</p>
+                    <ul>
+                    <li>Rank Stats</li>
+                    <li>Current Rank</li>
+                    <li>K/D</li>
+                    <li>Winrate %</li>
+                    <li>Last Matches (G:W/L)</li>
+                    <li>Last Game Played</li>
+                    <li>Recent Agents Winrate</li>
+                    <li>Average Combat Score</li>
+                    <li>Average K/D</li>
+                    </ul>
+                    <p>In a specific channel, you can have members from your Discord Server get a custom role corresponding to their in-game rank. Using the .vrank [player#ID] command, VALBOT will automaticaly give that user a role corresponding to their in-game rank.</p>
+                    ex: in-game rank: Diamond 2 | discord role: Diamond.
+                    
+                    <p>The .vstatus command, gives you the current status of the Valorant European Servers.</p>
+                    
+                    <p>The .vupdate command, gives you the latest Game Update News concerning Valorant.</p>
+                    
+                    <p>The .leaderboard command, gives you the TOP3 ranked players in Valorant.</p>
+                    
+                    <p>Command List</p>
+                    <ul>
+                        <li>.stats [player#ID] (in progress)
+                        <li>.vrank [player#ID] (in progress)
+                        <li>.vstatus
+                        <li>.vupdate
+                        <li>.leaderboard
+                    </ul>
+                    
+                    <p class="fst-italic footer-sizesm text-alight-center">VALBOT was created under Riot Games' "Legal Jibber Jabber" policy using assets owned by Riot Games. Riot Games does not endorse or sponsor this project.</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                  <img src="./img/code.avif" class="featurette-image img-fluid mx-auto" alt="" width="500" height="500">
+                  <br> <a href="https://github.com/danzkigg/valbot" target="_blank" class="text-decoration-none text-alight-right"><img src="./img/github-mark.png" alt="Github logo" width="20"> See this project on Github</a>
+                </div>
+              </div> 
+              
+
+          </div>
+    </section>
+
+    <section id="footer" class="bg-light bg-gradient py-4">
+        <div class="container">
+            <p class="text-alight-center fw-light footer-sizesm">Created by Daniel Silva &copy; 2023</p>
+            <p class="text-alight-center fw-light footer-sizesm">You can check this website's repository on <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+              </svg><a href="https://github.com/danzkigg/personalweb" target="_blank" class="text-decoration-none"> Github</a>.</p>
+        </div>
+    </section>
+    
+    <!-- Bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    
+</body>
+</html>
